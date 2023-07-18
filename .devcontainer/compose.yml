@@ -1,0 +1,6 @@
+services:
+  build:
+    build: ../docker
+    volumes:
+      - ..:/workspaces:cached
+    command: sleep infinity

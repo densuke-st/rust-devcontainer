@@ -1,0 +1,17 @@
+{
+    "dockerComposeFile": ["compose.yml"],
+    "service": "build",
+	"workspaceFolder": "/workspaces",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"rust-lang.rust-analyzer",
+				"panicbit.cargo",
+				"MS-CEINTL.vscode-language-pack-ja",
+				"oderwat.indent-rainbow",
+				"saikou9901.evilinspector",
+				"PKief.material-icon-theme"
+			]
+		}
+	}
+}
